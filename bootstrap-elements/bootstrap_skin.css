@@ -171,3 +171,17 @@ a:focus {
 .panel-collapse .panel-body {
 	background-color: #f1e9e0;
 }
+
+.panel-group .panel + .panel {
+    border: 2px solid #e77901;
+    margin-top: 0;
+}
+.panel-group .panel:last-child {
+    border-bottom: 3px solid #e77901;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+	background-color: transparent;
+	color: #242424;
+	border: none;
+}
