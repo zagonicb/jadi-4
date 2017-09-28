@@ -185,3 +185,13 @@ a:focus {
 	color: #242424;
 	border: none;
 }
+.panel > .list-group .list-group-item, .panel > .panel-collapse > .list-group .list-group-item {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.panel > .list-group .list-group-item span, .panel > .panel-collapse > .list-group .list-group-item span {
+	border-bottom: dashed 1px #242424;
+}
+.panel > .list-group .list-group-item span, .panel > .panel-collapse > .list-group .list-group-item:hover span {
+	border-bottom: dashed 1px transparent;
+}
